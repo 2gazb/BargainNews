@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A66D17FA2100B65C008489F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D17F92100B65C008489F9 /* AppDelegate.swift */; };
-		A66D17FC2100B65C008489F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D17FB2100B65C008489F9 /* ViewController.swift */; };
-		A66D17FF2100B65C008489F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66D17FD2100B65C008489F9 /* Main.storyboard */; };
 		A66D18012100B65F008489F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66D18002100B65F008489F9 /* Assets.xcassets */; };
 		A66D18042100B65F008489F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66D18022100B65F008489F9 /* LaunchScreen.storyboard */; };
+		A66D180C2100B6C9008489F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66D180B2100B6C9008489F9 /* Main.storyboard */; };
+		A66D180E2100B70E008489F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D180D2100B70E008489F9 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A66D17F62100B65C008489F9 /* BargainNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BargainNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66D17F92100B65C008489F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A66D17FB2100B65C008489F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A66D17FE2100B65C008489F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A66D18002100B65F008489F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A66D18032100B65F008489F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A66D18052100B65F008489F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66D180B2100B6C9008489F9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A66D180D2100B70E008489F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				A66D17F92100B65C008489F9 /* AppDelegate.swift */,
-				A66D17FB2100B65C008489F9 /* ViewController.swift */,
-				A66D17FD2100B65C008489F9 /* Main.storyboard */,
 				A66D18002100B65F008489F9 /* Assets.xcassets */,
 				A66D18022100B65F008489F9 /* LaunchScreen.storyboard */,
 				A66D18052100B65F008489F9 /* Info.plist */,
+				A66D180B2100B6C9008489F9 /* Main.storyboard */,
+				A66D180D2100B70E008489F9 /* ListViewController.swift */,
 			);
 			path = BargainNews;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66D180C2100B6C9008489F9 /* Main.storyboard in Resources */,
 				A66D18042100B65F008489F9 /* LaunchScreen.storyboard in Resources */,
 				A66D18012100B65F008489F9 /* Assets.xcassets in Resources */,
-				A66D17FF2100B65C008489F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A66D17FC2100B65C008489F9 /* ViewController.swift in Sources */,
+				A66D180E2100B70E008489F9 /* ListViewController.swift in Sources */,
 				A66D17FA2100B65C008489F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A66D17FD2100B65C008489F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A66D17FE2100B65C008489F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A66D18022100B65F008489F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
